@@ -6,10 +6,10 @@
 
 有三个主要hooks用于将组件连接到 React DnD 中，第四个hooks提供给你接入React DnD (用于测试或开发目的)的能力
 
-- [`useDrag`](/hooks-api/use-drag)
-- [`useDrop`](/hooks-api/use-drop)
-- [`useDragLayer`](/hooks-api/use-drag-layer)
-- [`useDragDropManager`](/hooks-api/use-drag-drop-manager) (_dev/test hook_)
+- [`useDrag`](/hooks-api/use-drag.md)
+- [`useDrop`](/hooks-api/use-drop.md)
+- [`useDragLayer`](/hooks-api/use-drag-layer.md)
+- [`useDragDropManager`](/hooks-api/use-drag-drop-manager.md) (_dev/test hook_)
 
 ## 基本例子
 
