@@ -52,5 +52,5 @@ function DraggableComponent(props) {
 
 - **`isDragging(monitor)`**: 可选。默认情况下，只有启动拖动操作的拖动源被认为是拖动。您可以通过定义自定义的`isDragging`方法来重写此行为。它可能返回类似`props.id === monitor.getItem ().id`这样的内容。这样做，如果原始组件可能会在拖动期间卸载并且之后“复活”一个不同的父组件。例如，当在看板中移动一张卡片时，您希望它保留被拖动的外观，即使从技术上讲，每次您将该组件移动到另一个列表时，该组件都会被卸载，并且会挂载另一个不同的组件。注意: 您不能在此方法中调用`monitor.isDragging()`。
 
-- **`collect`**: 可选。collecting方法。它应该返回一个简单的props对象，以便返回到组件中进行注入。它接受两个参数，`monitor`和`props`。请阅读monitor和collecting功能的介绍[概述](/快速开始/概览.md)。请参阅下一节中详细描述的collecting功能。
+- **`collect`**: 可选。collecting方法。它应该返回一个简单的props对象，以便返回注入到您的组件中。它接受两个参数，`monitor`和`props`。请阅读monitor和collecting功能的介绍[概述](/快速开始/概览.md)。请参阅下一节中详细描述的collecting功能。
 
