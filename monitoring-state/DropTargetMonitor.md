@@ -1,7 +1,7 @@
 
 # DropTargetMonitor
 
-`DropTargetMonitor` 是传递给[hooks-based](/hooks-api/useDrop.md)或[decorator-based]的colleting函数的对象。它的方法使您可以获得关于特定拖放目标的拖动状态的信息。绑定到该监视器的特定拖放目标在下面称为监视器的所有者
+`DropTargetMonitor` 是传递给[hooks-based](/hooks-api/useDrop.md)或decorator-based的colleting函数的对象。它的方法使您可以获得关于特定拖放目标的拖动状态的信息。绑定到该监视器的特定拖放目标在下面称为监视器的所有者
 
 ### 方法
 
