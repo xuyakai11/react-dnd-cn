@@ -1,6 +1,6 @@
 # DragSourceMonitor
 
-`DragSourceMonitor` 是传递给[hooks-based]或[decorator-based]的拖动源的colleting函数的对象。它的方法使您可以获得关于特定拖动源的拖动状态的信息。绑定到该监视器的特定拖动源在下面称为监视器的所有者
+`DragSourceMonitor` 是传递给[hooks-based](/hooks-api/useDrag.md)或decorator-based的拖动源的colleting函数的对象。它的方法使您可以获得关于特定拖动源的拖动状态的信息。绑定到该监视器的特定拖动源在下面称为监视器的所有者
 
 ### 方法
 
