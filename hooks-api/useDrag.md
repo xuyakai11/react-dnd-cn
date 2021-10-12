@@ -26,7 +26,7 @@ function DraggableComponent(props) {
 - **`deps`** 一个可用于缓存的依赖数组，它的工作方式类似于内置的`useMemo` React hook。默认值是 function spec 的空数组和包含对象 spec 的 spec 的数组
 
 #### 返回值数组
-- **`[0] - Collected Props`**: 包含从 collect 函数收集的属性的对象. 如果没有 `collect` function未定义，则返回一个空对象
+- **`[0] - Collected Props`**: 包含从 collect 函数收集的属性的对象. 如果`collect`方法未定义，则返回一个空对象
 - **`[1] - DragSource Ref`**: 拖动源的connector函数. 必须附加到DOM的可拖动部分
 - **`[2] - DragPreview Ref`**: 一个用于拖动预览的connector函数。这可能附加到DOM的预览部分
 
